@@ -34,3 +34,33 @@ header > h1 {
 	border-radius: 5px;
 	margin-bottom: 20px;
 }
+
+p{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+#players {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	float: center;
+	padding-top: 50px;
+  }
+  
+  #players td, #players th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #players tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #players tr:hover {background-color: #ddd;}
+  
+  #players th {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	background-color: #f52323;
+	color: white;
+  }
